@@ -1,0 +1,117 @@
+/* ------------------------------------- */
+/* BASE STYLE */
+/* ------------------------------------- */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Outfit, Courier, monospace;
+  font-size: 20px;
+  font-weight: 300;
+  word-spacing: 1px;
+  letter-spacing: 0.5px;
+  text-rendering: optimizeLegibility;
+}
+
+body {
+  background-color: hsl(217, 54%, 11%);
+  color: hsl(0, 0%, 100%);
+}
+
+/* ------------------------------------- */
+/* CONTENT */
+/* ------------------------------------- */
+
+/* HEADINGS */
+
+h1 {
+  font-size: 90%;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-weight: 600;
+}
+
+h2 {
+  font-size: 70%;
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: hsl(178, 100%, 50%);
+}
+
+/* IMAGE */
+
+.nft-image {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.avater-image {
+  width: 30px;
+  margin-right: 15px;
+}
+
+/* DIV's */
+
+.container {
+  width: 19.4vw;
+  background-color: hsl(216, 50%, 16%);
+  margin: 60px auto;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: hsl(218, 50%, 9%) -1px -1px 10px 4px ,
+  hsl(216, 50%, 16%) 0px 20px 40px -20px;
+}
+
+.left {
+  display: flex;
+  align-items: center;
+}
+
+.right{
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 20px 0;
+}
+
+.svg {
+  margin-right: 5px;
+}
+
+hr {
+  width: 100%;
+  border: 1px solid hsl(215, 32%, 27%);
+}
+
+.bottom {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+
+/* TEXT */
+
+p {
+  font-size: 70%;
+  /* letter-spacing: -1px; */
+  color: hsl(215, 51%, 70%);
+}
+
+.sub-text {
+  font-size: 60%;
+  letter-spacing: 1px;
+}
+
+span {
+  color: #fff;
+}
+
