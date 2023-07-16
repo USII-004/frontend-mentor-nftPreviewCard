@@ -172,7 +172,7 @@ h1:hover {
 @media (max-width: 650px) {
   
   html {
-    font-size: 0.85rem;
+    font-size: 5.5vw;
   }
   .container {
     width: 90vw;
